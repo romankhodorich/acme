@@ -1,24 +1,14 @@
 {
-  "name": "mwi-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "mwi-shop",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack --watch"
+    "front": "cd frontend && webpack",
+    "back": "cd backend && yarn develop",
+    "server": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cli": "^1.0.1",
-    "css-loader": "^5.2.5",
     "express": "^4.17.1",
-    "mini-css-extract-plugin": "^1.6.0",
-    "pug": "^3.0.2",
-    "sass": "^1.32.13",
-    "sass-loader": "^11.1.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0"
+    "http-proxy-middleware": "^2.0.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
   }
 }

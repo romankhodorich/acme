@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log(1+4);const e=()=>{fetch("http://localhost:1337/users").then((e=>e.json())).then((e=>{const t=document.querySelector(".users");let c="";e.forEach((e=>{c+=`<li>${e.email}</li>`})),t.innerHTML=c}))};e(),document.querySelector(".update").addEventListener("click",e)})();

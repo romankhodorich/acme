@@ -25,4 +25,6 @@ module.exports = {
     new MiniCssExtractPlugin({ filename: 'style.css'}),
   ],
 
-};
+  mode: 'development',
+  watch: true,
+}
