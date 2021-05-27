@@ -1,13 +1,3 @@
-extends template.pug
+extends _template.pug
 
 block content
-  div.main-content
-    p= title
-    p= message
-    
-    ul.products
-      each p in products
-        li 
-          img(src=p.images[0].formats.small.url alt="")
-          h4= p.title 
-          p= p.description

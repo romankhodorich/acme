@@ -1,7 +1,7 @@
 {
   "name": "mwi-shop",
   "scripts": {
-    "front": "cd frontend && webpack",
+    "front": "cd frontend && yarn webpack",
     "back": "cd backend && yarn develop",
     "server": "nodemon server.js"
   },
