@@ -1,6 +1,7 @@
 'use strict';
 
 const qS = require('query-string')
+const Promise = require('bluebird')
 
 module.exports = {
   find: async ctx => {
