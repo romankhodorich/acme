@@ -2,9 +2,9 @@ extends ../_template.pug
 
 block content
 
-  div.page-home
+  div.page-catalog-products-in-category
     div.cont 
-      each productCategory in productsOnMain
+      each productCategory in productsInCategory
         h3= productCategory.categoryName
 
         div.products-wrapper
